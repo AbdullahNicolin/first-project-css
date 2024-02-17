@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-image: url(https://images.pexels.com/photos/2372528/pexels-photo-2372528.jpeg?auto=compress&cs=tinysrgb&w=400);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 5rem;
+    text-align: center;
+}
+header h1{
+    color: #ffff;
+    font-size: 3rem;
+}
+nav{
+background-color: rgb(146, 149, 118);
+text-align: center;
+padding: 0.4rem;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 1.3rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 1.2rem;
+}
+section{
+    background: rgb(189, 190, 176);
+    
+}
