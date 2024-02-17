@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
 }
 header{
     background-image: url(https://images.pexels.com/photos/2372528/pexels-photo-2372528.jpeg?auto=compress&cs=tinysrgb&w=400);
@@ -14,6 +14,7 @@ header{
 header h1{
     color: #ffff;
     font-size: 3rem;
+    font-family: "Indie Flower", cursive;
 }
 nav{
 background-color: rgb(146, 149, 118);
@@ -29,7 +30,18 @@ nav ul li a{
     color: #ffff;
     font-size: 1.2rem;
 }
-section{
+article{
     background: rgb(189, 190, 176);
-    
+    border-radius: 1rem;
+    margin: 1rem 15rem ;
+    padding: 2rem;
 }
+section img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 1.6rem;
+    height: auto;
+    width: 100%;
+    max-width: 35rem;
+}
+
